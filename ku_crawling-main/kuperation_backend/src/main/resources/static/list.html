@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUperation - 의약품 목록</title>
+    <link rel="shortcut icon" href="./image/logo_favi.ico">
+    <link rel='stylesheet' href='./css/sytle_search.css' />
+    <!-- <script src="./js/code_search.js"></script> -->
+    <script src="./js/getList.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="/">
+                <img src="./image/logo.png">
+            </a>
+        </header>
+        <div id="contents">
+            <div id="upside">
+                <div id="input">검색명</div>
+            </div>
+            <div id="totalDiv">
+                총 <span id="total">1</span>건
+            </div>
+            <div id="table_block">
+                <table id="table1" class="table_contents">
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>약품명</th>
+                            <th>제조회사</th>
+                            <th>성분</th>
+                            <th>효능 효과</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tBody">
+
+                    </tbody>
+                </table>
+            </div>
+            <div id="pageBox">
+            <ul class="pagination" id="pageUl">
+                <li id="pageFirst">
+                    <a href="" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li id="pagePrev"><a href="">&lt;</a></li>
+                <li id="pageNow"><a href="">1</a></li>
+                <li id="pageNext"><a href="">&gt;</a></li>
+                <li id="pageLast">
+                    <a href="" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div id="all"><a href="/searchList?category=allitem&pageNum=1&word=">의약품 전체 보기</a></div>
+        </div>
+        <footer id="footer">Copyright 2022. KUperation. all rights reserved.</footer>
+    </div>
+</body>
+
+</html>

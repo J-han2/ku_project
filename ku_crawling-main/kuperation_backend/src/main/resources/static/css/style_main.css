@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+#contents{
+    text-align: center;
+}
+
+#logo {
+    width: 400px;
+    height: auto;
+    /* padding: 20px; */
+    margin-bottom: 50px;
+    margin-top: 14%;
+    /* text-align: center;
+    font-size: 25px; */
+    font-weight: bold;
+    display: inline-block;
+    /* background-color: rgb(200, 200, 200); */
+}
+#logo img {
+    width: 100%;
+}
+
+select{
+    border-width: 0px 1px 0px 0px;
+}
+
+.drop_down_box {
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    border-radius: 20px  0px  0px 20px;
+    background-color: #d8e9f0;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}
+
+.drop_down_box .drop_down {
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0 5px;
+    position: relative;
+    color: #454553;
+}
+
+#category:hover {
+    cursor: pointer;
+}
+#category:focus {
+    outline: none;
+}
+option {
+    padding: 5px;
+}
+
+#search{
+    margin: auto;
+    width: 550px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#search input{
+    width: 310px;
+    height: inherit;
+    font-size: 18px;
+    border-radius: 0px 20px 20px 0px;
+    border: 0 none;
+    background: #d8e9f0;
+    text-align: right;
+    padding-right: 20px;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #454553;
+}
+/* #search input:focus {outline: 1px solid #454553;} */
+#search input:focus {outline: none;}
+
+#search button{
+    width: 80px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0 none;
+    background:#d8e9f0;
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #454553;
+}
+#search button:hover {
+    cursor: pointer;
+}
+
+#guideBox{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-size: 12px;
+}
+#guideBtn {
+    color: gray;
+    text-decoration: underline;
+}
+#guideBtn:hover {
+    cursor: pointer;
+}
+#guide {
+    display: none;
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    color: #454553;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #454553;
+
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+header{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    position : relative;
+    top : 0;
+    padding: 40px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    font-size: 40px;
+    font-weight: bold;
+}
+#upside{
+    margin: auto;
+    width: 90%;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#contents{
+    text-align: center;
+}
+
+#input{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 6em;
+    position: relative;
+}
+
+#all{
+    font-size: 15px;
+    color: gray;
+    text-decoration: underline;
+    float: right;
+    margin-top: 28px;
+    margin-right: 15em;
+    position: relative;
+}
+
+#table_block{
+    font-size: 16px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.table_contents {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    border-top: 3px solid #168;
+}  
+.table_contents th {
+    color: #168;
+    background: #f0f6f9;
+}
+.table_contents th, .table_contents td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.table_contents th:first-child, .table_contents td:first-child {
+    border-left: 0;
+}
+.table_contents th:last-child, .table_contents td:last-child {
+    border-right: 0;
+}
+
+tr th:nth-child(1){
+    width: 5%;
+}
+
+tr td:nth-child(1){
+    width: 5%;
+}
+
+tr th:nth-child(3){
+    width: 9%;
+}
+
+tr td:nth-child(3){
+    width: 9%;
+}
+
+tr th:nth-child(5){
+    width: 45%;
+}
+
+tr td:nth-child(5){
+    width: 45%;
+}
+
+ul {
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-right: 0;
+    list-style:none;
+}
+
+ul li {
+    text-align: center;
+    float: left;
+}
+
+ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 9px 12px;
+    border-right: solid 1px #ccc;
+    box-sizing: border-box;
+}
+
+.pagination{
+    text-align: center;
+    margin-left: 20em;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    position : absolute;
+    bottom: 0;
+    padding: 20px 0px;
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    font-size: 15px;
+    font-weight: bold;
+}

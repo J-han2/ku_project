@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>KUperation</title>
+        <link rel="shortcut icon" href="./image/logo_favi.ico">
+        <link rel='stylesheet' href='./css/style_main.css' />
+        <script src="./js/code_main.js" defer></script>
+    </head>
+    <body>
+        <div id="contents">
+            <div id="logo">
+                <img src="./image/logo.png" alt="logo">
+            </div>
+            
+            <div id="search">
+                <select class="drop_down drop_down_box" id="category">
+                    <option value="item">약품명</option>
+                    <option value="ingredient">성분</option>
+                    <option value="symptom">증상</option>
+                </select>
+                <input id="search_input" type="text" placeholder="약품명, 성분, 증상 등" onkeyup="enter()">
+                <button id="search_btn">검색</button>
+            </div>
+            <div id="guideBox">
+                <p id="guideBtn">검색 방법 (클릭)</p>
+                <div id="guide">
+                    <p>- 약품명 검색 : 궁금한 약품명을 검색창에 검색</p>
+                    <p>- 성분 검색 : 궁금한 성분을 영문으로 검색</p>
+                    <p>- 증상 검색 : 궁금한 증상들을 띄어쓰기로 구분하여 검색</p>
+                    <p>- 전체 검색 : 검색어를 입력하지 않고 검색</p>
+                </div>
+            </div>
+        </div>
+        <footer>Copyright 2022. KUperation. all rights reserved.</footer>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+header{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    position : relative;
+    top : 0;
+    padding: 40px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#contents{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+#upside{
+    margin: auto;
+    width: 90%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+#m_name{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.info {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.info_title{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.info_contents{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+#back{
+    font-size: 20px;
+    color: gray;
+    text-decoration: underline;
+    float: right;
+    position: relative;
+}
+
+
+footer {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    position : absolute;
+    bottom: 0;
+    padding: 20px 0px;
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    font-size: 15px;
+    font-weight: bold;
+}
